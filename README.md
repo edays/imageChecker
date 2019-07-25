@@ -48,13 +48,13 @@ Design a simple UI with MVC. Implement core functions using *__Perceptual Hashin
 
     It is a bad idea to check the format of a csv file through our software. And often, it is an impossible task. Thus, user must ensure that the input file is correctly written. Sample format:
 
-    >*~/Desktop/Images/imageA.png,~/Desktop/Images/imageB.png*
+    >*/Desktop/Images/imageA.png,~/Desktop/Images/imageB.png*
 
     where path must be in absolute path, images exist (otherwise an IOException will be thrown), and paths are joint by a comma delimiter.
 
     Sample output csv:
 
-    >*~/Desktop/Images/imageA.png,~/Desktop/Images/imageB.png,0,1.342*
+    >*/Desktop/Images/imageA.png,~/Desktop/Images/imageB.png,0,1.342*
 
     where the first two columns are the same as the input. The third column shows the similarity of the two images. The last column contains the time elapsed.
 
